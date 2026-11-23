@@ -109,7 +109,7 @@ function updateTime() {          // runs every 1 second
 
 const timeInterval = setInterval(updateTime, 1000); // run updateTime every 1 second
 
-// ===== PART 2: GAME OVER =====
+// ==== PART 2: GAME OVER ====
 function gameOver() {            // shows the end box
   endgameEl.innerHTML = `
     <h1>Time ran out</h1>
